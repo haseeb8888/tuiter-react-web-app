@@ -93,3 +93,14 @@ body {
     border-radius: 0;
     background-color: black;
 }
+
+.wd-footer-text{
+    font-size: 13px;
+    color: rgb(113, 118, 123);
+}
+
+.wd-footer{
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}

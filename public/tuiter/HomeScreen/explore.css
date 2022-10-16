@@ -1,0 +1,118 @@
+.wd-zero-right-border{
+    border-right: 0px transparent;
+}
+.wd-rounded-buttons{
+    border-radius: 20px;
+}
+
+.fg-color-blue{
+    color: mediumslateblue;
+}
+
+.wd-overlay-name{
+    bottom: 70px;
+    color: rgb(4, 48, 44);
+    font-size: 40px;
+}
+
+.wd-gray-color{
+    color:gray;
+}
+
+.wd-rounded-images{
+    border-radius: 50%;
+}
+
+body { background-color: black }
+
+.wd-list-group .list-group-item{
+    background-color: #343a40;
+}
+
+.wd-post-list-group .list-group-item{
+    background-color: black;
+}
+
+.wd-card-bg{
+    background-color: black;
+}
+.wd-nav-item{
+    color: white;
+}
+
+.wd-nav-bg-border{
+    border-bottom: 0;
+}
+
+.wd-main-content-images{
+    border-radius: 10px;
+}
+
+.wd-font-color{
+    color: white;
+}
+
+.wd-search-bar-color{
+    background-color: white;
+    border: none;
+}
+
+.wd-foreground-text{
+    color:#c9d1d9;
+}
+
+.wd-image-borders{
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.wd-button-bg:hover{
+    background-color: rgb(114, 145, 196);
+    border: none;
+}
+
+.wd-font-white{
+    color: white;
+}
+
+.wd-follow-button{
+    background-color: white;
+    color: black;
+}
+
+.list-group-item.active{
+    background-color: rgb(114, 145, 196);
+    color: white;
+    border:none;
+}
+
+.nav-item.active{
+    background-color: rgb(114, 145, 196);
+}
+.nav-link:hover{
+    border: none;
+    color: white;
+}
+.wd-main-content{
+    background-color: #343a40;
+}
+
+.wd-card-border{
+    border-radius: 10px;
+    border: 1px solid gray;
+
+}
+.wd-card-title-border{
+    border-top:1px solid gray;
+}
+
+a{
+    text-decoration: none;
+}
+
+.post-about{
+    margin-left: -30px;
+}
+.wd-verified{
+    color: lightgray;
+}

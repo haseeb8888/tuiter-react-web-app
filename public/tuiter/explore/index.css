@@ -1,127 +1,102 @@
-body {
-    margin-top: 10px;
+.wd-zero-right-border{
+    border-right: 0px transparent;
+}
+.wd-rounded-buttons{
+    border-radius: 20px;
 }
 
-.list-group {
-    margin-top: 10px;
+.fg-color-blue{
+    color: mediumslateblue;
 }
 
-.btn-primary.wd-override-tweet-btn {
-    border-radius: 50px;
-    margin-top: 10px;
-    width: 100%;
-    min-width: 75%;
-    table-layout: fixed;
+.wd-overlay-name{
+    bottom: 70px;
+    color: rgb(4, 48, 44);
+    font-size: 40px;
 }
 
-.wd-left-bar {
-    white-space: nowrap;
+.wd-gray-color{
+    color:gray;
 }
 
-.wd-override-search {
-    border-radius: 50px;
-    border-style: none;
-    width: 100%;
-    max-width: 90%;
-    padding: 8px 40px;
-    margin-bottom: 10px;
-    background-color: white;
+.wd-rounded-images{
+    border-radius: 50%;
 }
 
-.wd-override-search-icon {
-    position: relative;
-    left: 35px;
-    margin-left: -20px;
+body { background: black }
+
+.wd-list-group .list-group-item{
+    background-color: #343a40;
 }
 
-.wd-override-gear {
-    float: right;
-    padding: 15px;
-    margin-right: -15px;
+.wd-nav-item{
+    color: white;
 }
 
-.wd-navbar {
-    margin-bottom: 10px;
+.wd-nav-bg-border{
+    border-bottom: 0;
 }
 
-.wd-spacex-override {
-    border-radius: 0;
-}
-
-.wd-tweets {
-    font-size: 15px;
-}
-
-.wd-override-check {
-    font-size: 7px;
-}
-
-.wd-check-mark {
-    color: black;
-}
-
-.wd-override-more {
-    font-size: 8px;
-    margin-left: 0;
-}
-
-.wd-override-more i {
-    margin-left: -2px;
-}
-
-.wd-dots {
-    color: black;
-}
-
-.wd-picture-caption {
-    position: absolute;
-    bottom: 0;
-    left: 1%;
-    color: rgb(47, 51, 54);
-}
-
-.wd-topic {
-    margin-bottom: 0;
-}
-
-.wd-account {
-    margin-bottom: 0;
-}
-
-.wd-content {
-    margin-bottom: 0;
-}
-
-.wd-tweets {
-    margin-bottom: 0;
-}
-
-.wd-tweet-photos {
-    display: inline;
-    float: right;
-    width: 90px;
-    height: 90px;
-    vertical-align: middle;
+.wd-main-content-images{
     border-radius: 10px;
-    padding: 0;
 }
 
-.wd-handle {
-    margin-bottom: 0;
+.wd-font-color{
+    color: white;
 }
 
-.btn-primary.wd-override-follow {
-    border-radius: 50px;
-    float: right;
-    margin-top: 5px;
+.wd-search-bar-color{
+    background-color: white;
+    border: none;
 }
 
-.wd-follow-logo {
-    display: inline;
-    float: left;
-    width: 50px;
-    height: 50px;
-    vertical-align: middle;
-    border-radius: 50px;
-    margin-right: 20px;
+.wd-foreground-text{
+    color:#c9d1d9;
+}
+
+.wd-image-borders{
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+
+
+.wd-font-white{
+    color: white;
+}
+
+.wd-follow-button{
+    background-color: white;
+    color: black;
+}
+
+.list-group-item.active{
+    background-color: rgb(114, 145, 196);
+    color: white;
+    border:none;
+}
+
+.nav-item.active{
+    background-color: rgb(114, 145, 196);
+}
+
+.wd-main-content{
+    background-color: #343a40;
+
+}
+a{
+    text-decoration: none;
+}
+
+.follow-img{
+    border-radius: 40px;
+}
+
+.wd-verified{
+    color: lightgray;
+}
+
+.wd-button-bg:hover{
+    background-color: rgb(114, 145, 196);
+    border: none;
 }

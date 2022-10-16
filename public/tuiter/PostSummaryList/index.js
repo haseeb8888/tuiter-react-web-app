@@ -1,16 +1,14 @@
-import PostSummaryItem from "./PostSummaryItem.js";
-import posts from "./posts.js";
-
+import  PostSummaryItem from "./PostSummaryItem.js";
+import posts from "./posts.js"
 const PostSummaryList = () => {
-    return(`
-    <ul class="list-group">
-      ${
-        posts.map(post => {
-            return(PostSummaryItem(post));
+    return (`
+            <div class="list-group wd-list-group">               
+                ${
+        posts.map(p=>{
+            return PostSummaryItem(p);
         }).join('')
     }
-    </ul>
-  `);
-}
+            </div>
+`); }
 
 export default PostSummaryList;

@@ -26,7 +26,7 @@
 body { background-color: black }
 
 .wd-list-group .list-group-item{
-    background-color: #343a40;
+    background-color: #231f1f;
 }
 
 .wd-post-list-group .list-group-item{
@@ -81,13 +81,13 @@ body { background-color: black }
 }
 
 .list-group-item.active{
-    background-color: rgb(114, 145, 196);
+    background-color: rgb(41,159,214);
     color: white;
     border:none;
 }
 
 .nav-item.active{
-    background-color: rgb(114, 145, 196);
+    background-color: rgb(41,159,214);
 }
 .nav-link:hover{
     border: none;

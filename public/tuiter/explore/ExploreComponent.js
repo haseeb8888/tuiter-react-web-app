@@ -10,7 +10,7 @@ const ExploreComponent = () => {
                     </div>
                 </div>
                 <div class="col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-1">
-                    <i class="fa fa-gear fa-2x position-relative wd-foreground-text" style="top: 3px; color: rgb(114, 145, 196)"></i>
+                    <i class="fa fa-cog fa-2x position-relative wd-foreground-text" style="top: 3px; color: rgb(41,159,214)"></i>
                 </div>
             </div>
             <div class="row">

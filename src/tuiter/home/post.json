@@ -1,0 +1,28 @@
+[
+  {
+    "image": "https://pbs.twimg.com/profile_images/1082744382585856001/rH_k3PtQ_400x400.jpg",
+    "username": "SpaceX",
+    "handle": "@SpaceX",
+    "timeframe": "23h",
+    "content": "SpaceX rolls out Starship, stacks world’s largest rocket, and aces Starlink launch hours apart",
+    "cardImage": "https://studentwork.prattsi.org/infovis/wp-content/uploads/sites/3/2021/02/spacex-tesmanian_1600x.jpg",
+    "cardTitle": "Nunc urna quam, cursus ac orci ac",
+    "cardBody": "Lorem ipsum dolor sit amet, consectetur adipis lobortis velit. ro lacinia et. Etiam eget tincidunt neque. Pellentesque rutrum ultricies tincidunt. Donec eget erat placerat, fermentum metus id, lacinia dui. Fusce commodo lacus felis, sed elementum urna efficitur ut. Sed eu ultrices magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse placerat tortor nec sem ultrices dapibus. Sed suscipit enim sit amet vulputate blandit.",
+    "commentNumber": "4.2k",
+    "shareNumber": "3.5k",
+    "heartNumber": "37.5k"
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg/1200px-Elon_Musk_Royal_Society_%28crop2%29.jpg",
+    "username": "Elon Musk",
+    "handle": "@elonmusk",
+    "timeframe": "23h",
+    "content": "Grimes seen reading Karl Marx following split with world\"s richest man Elon Musk <Link to='#'>trib.al/nx2Gfaq</Link>",
+    "cardImage": "https://www.tesla.com/xNVh4yUEc3B9/04_Desktop.jpg",
+    "cardTitle": "Lorem ipsum dolor sit amet",
+    "cardBody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc urna quam, cursus ac orci ac, auctor hendrerit enim. Vestibulum pellentesque ipsum lacus, et mollis mauris posuere at. Pellentesque placerat malesuada.",
+    "commentNumber": "900",
+    "shareNumber": "2k",
+    "heartNumber": "3k"
+  }
+]

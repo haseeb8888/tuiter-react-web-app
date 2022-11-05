@@ -14,8 +14,8 @@ const PostSummaryItem = (
         <li className="list-group-item">
             <div className="row">
                 <div className="col-10">
-                    <div>{post.userName} . {post.time}</div>
-                    <div className="fw-bolder">{post.topic}</div>
+                    <div className="fw-bolder">{post.userName}<i className="fa fa-check-circle ms-1"></i> . {post.time}</div>
+                    <div >{post.topic}</div>
                     <div>{post.title}</div>
                 </div>
                 <div className="col-2">

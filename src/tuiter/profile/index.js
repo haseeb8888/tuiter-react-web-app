@@ -26,13 +26,14 @@ const ProfileComponent = () => {
                 <div>
                     <div className="position-relative">
                         <img src={profile.bannerPicture} alt="banner" className="w-100 px-0 mx-0 border-0"></img>
-                        <img src={profile.profilePicture} alt="avatar" className="h-50 rounded-circle card-img-overlay mx-3 my-5 top-50" style={{width:"150px"}}></img>
+                        <img src={profile.profilePicture} alt="avatar" className="h-50 rounded-circle card-img-overlay mx-3 my-5 top-50"></img>
                     </div>
                     <Link to="../edit-profile">
                         <button className="rounded-pill btn btn-outline-secondary float-end w-25 mt-2 ps-3 pe-3 me-2 fw-bold text-black">Edit profile</button>
                     </Link>
                 </div>
-                <div className="mt-5 px-3">
+                <br/>
+                <div className="mt-5 px-3 ">
                     <div>{profile.firstName} {profile.lastName}</div>
                     <div className="text-secondary small">{profile.handle}</div>
                     <p className="text-dark small pt-2">{profile.bio}</p>

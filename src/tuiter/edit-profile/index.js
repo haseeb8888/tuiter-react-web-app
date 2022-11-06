@@ -16,13 +16,21 @@ const EditProfileComponent = () => {
     const [website, setWebsite] = useState(profile.website);
     const [dateOfBirth, setDob] = useState(profile.dateOfBirth);
 
-    function handleNameChange(e) {
-            const newName = e.target.value.split(" ")
-            setFirstName(newName[0]);
-            setLastName(newName[newName.length - 1]);
+    function onFirstNameChange(e) {
+            const newName = e.target.value;
+            setFirstName(newName);
         const newProfile = {
             ...profile,
-            firstName: firstName,
+            firstName: firstName
+        }
+        setProfile(newProfile)
+    }
+
+    function handleLastNameChange(e) {
+        const newName = e.target.value;
+        setLastName(newName);
+        const newProfile = {
+            ...profile,
             lastName: lastName
         }
         setProfile(newProfile)
@@ -115,7 +123,7 @@ const EditProfileComponent = () => {
                             </div>
                             <div className="row img-wrapper card-img-overlay top-50 h-100 ms-3 mb-4 position-absolute">
                                 <div className="col-2 card-img-overlay mt-5 img-fluid">
-                                    <img src={profile.profilePicture} className="h-50 rounded-circle mx-3" style={{width:"150px"}}></img>
+                                    <img src={profile.profilePicture} className="h-50 rounded-circle mx-2" style={{width:"150px"}}></img>
                                     <div className="card-img-overlay rounded-circle start-50 pt-1">
                                         <button className="btn rounded-circle bg-secondary border-0 bg-opacity-75 my-4">
                                             <i className="bi bi-camera text-white"></i>
@@ -125,17 +133,28 @@ const EditProfileComponent = () => {
                             </div>
                         </div>
                     </div>
+                    <br/>
                     <div className="row d-inline px-3">
                         <form>
                         <div className="form-floating mb-3">
-                            <input type="input" className="form-control" id="fullName"
-                                   value={firstName + " " + lastName}
+                            <input type="input" className="form-control" id="firstName"
+                                   value={firstName}
                                    onChange={(event) => {
-                                       handleNameChange(event)}
+                                       onFirstNameChange(event)}
                                    }
                             />
-                            <label for="fullName">Name</label>
+                            <label for="firstName">First Name</label>
                         </div>
+                            <div className="form-floating mb-3">
+                                <input type="input" className="form-control" id="lastName"
+                                       value={lastName}
+                                       onChange={(event) => {
+                                           handleLastNameChange(event)
+                                       }
+                                       }
+                                />
+                                <label htmlFor="lastName">Last Name</label>
+                            </div>
                         <div className="form-floating mb-3">
                             <textarea className="form-control" id="bio"
                                    value={bio}

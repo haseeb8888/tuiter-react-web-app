@@ -4,7 +4,7 @@ const initialTodos = [
     {
         _id: "123",
         do: "Accelerate the world's transition to sustainable energy",
-        done: false
+        done: true
     },
     {
         _id: "234",

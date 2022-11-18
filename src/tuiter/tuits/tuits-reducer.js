@@ -12,7 +12,7 @@ const initialState = {
 const currentUser = {
     "userName": "NASA",
     "handle": "@nasa",
-    "image": "https://e7.pngegg.com/pngimages/865/893/png-clipart-black-nasa-text-nasa-insignia-logo-nasa-graphics-standards-manual-decal-nasa-logo-angle-text-thumbnail.png",
+    "image": "http://www.nasa.gov/sites/default/files/images/nasaLogo-570x450.png",
 };
 
 const templateTuit = {

@@ -18,7 +18,7 @@ const WhatsHappening = () => {
     return (
         <div className="row">
             <div className="col-auto">
-                <img src="https://e7.pngegg.com/pngimages/865/893/png-clipart-black-nasa-text-nasa-insignia-logo-nasa-graphics-standards-manual-decal-nasa-logo-angle-text-thumbnail.png" className="rounded-circle" width={60}/>
+                <img src="http://www.nasa.gov/sites/default/files/images/nasaLogo-570x450.png" className="rounded-circle" width={60}/>
             </div>
             <div className="col-10">
        <textarea value={whatsHappening} placeholder="What's happening?"
